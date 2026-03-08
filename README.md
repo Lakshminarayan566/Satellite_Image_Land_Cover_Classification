@@ -106,10 +106,21 @@ numpy>=1.24.0
 
 ## 📊 Sample Outputs
 
+### Training Curves
+![Training Curves](sample_outputs/training_curves.png)
+
+### Spectral Index Analysis (NDVI / NDWI / NDBI)
+![Spectral Indices](sample_outputs/spectral_indices.png)
+
+### Confusion Matrix
+![Confusion Matrix](sample_outputs/confusion_matrix (1).png)
+
 ### Grad-CAM Spatial Explainability
+![Grad-CAM](sample_outputs/gradcam_visualization.png)
 > The model correctly focuses on water pixels for River class, vegetation texture for Forest, and building density for Residential — geographically interpretable predictions.
 
 ### t-SNE Feature Embedding
+![t-SNE](sample_outputs/tsne_embeddings.png)
 > Well-separated clusters in 2D space confirm the model has learned discriminative spectral and spatial features for all 10 land-cover classes.
 
 ### Most Confused Class Pairs
@@ -120,7 +131,6 @@ numpy>=1.24.0
 | Pasture | AnnualCrop | Similar texture patterns |
 
 > These confusions mirror real challenges faced by human analysts in LULC mapping — validating the model's realism.
-
 ---
 
 ## 🔬 Future Work
