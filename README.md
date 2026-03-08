@@ -113,7 +113,7 @@ numpy>=1.24.0
 ![Spectral Indices](sample_outputs/spectral_indices.png)
 
 ### Confusion Matrix
-![Confusion Matrix](sample_outputs/confusion_matrix (1).png)
+![Confusion Matrix](sample_outputs/confusion_matrix.png)
 
 ### Grad-CAM Spatial Explainability
 ![Grad-CAM](sample_outputs/gradcam_visualization.png)
